@@ -1,0 +1,6 @@
+<li *ngFor="let childNode of node.get('children')">
+    <a tree-node 
+        [ngClass]="childNode.get('flipped') ? 'selected' : ''"
+        [node]="childNode"></a>
+    <ul tree *ngIf="childNode.get('children')" [node]="childNode"></ul>
+</li>

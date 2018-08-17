@@ -1,0 +1,112 @@
+$bg-forums-app: #ECECF4;
+$bg-main-menu: #0F0D14;
+$bg-forums-main-menu-header: rgb(38, 37, 48);
+
+body, html {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+
+.forums-app {
+    height: 100vh;
+    width: 100vw;
+    background-color: $bg-forums-app;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forums-app .gatekeeper {
+    padding: 12px;
+    background-color: #F0F1F7;
+    border-radius: 4px;
+}
+
+.forums-app .gatekeeper .heading {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.forums-app .gatekeeper .heading i {
+    color: #4c64e4;
+}
+
+.forums-app .gatekeeper .text-input {
+    padding: 4px 8px;
+    height: 24px;
+    border-radius: 4px;
+    font-size: 11px;
+    border: 1px solid #b8d8cb;; 
+    background-color: #fafafa;
+    outline: none;
+    color: #0F0D14;
+    width: 200px;
+}
+
+.forums-app .gatekeeper .btn-forum {
+    height: 24px;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+
+.btn-forum {
+    height: 20px;
+    vertical-align: middle;
+    line-height: 12px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    padding: 4px 12px;
+    background-color: #4c64e4;
+    color: #eaeaea;
+    outline: 0 none;
+    cursor: pointer;
+}
+
+.btn-forum.btn-forum-sm {
+    height: 16px;
+    line-height: 8px;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.btn-forum:hover {
+    background-color: #1732bb;
+}
+
+.btn-forum:focus {
+    background-color: #1732bf;
+}
+
+.btn-forum:active {
+    background-color: #1732bf;
+    top: 1px;
+    position: relative;
+}
+
+.forums-home {
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.forums-home .main-menu {
+    background-color: $bg-main-menu;
+    display: grid;
+    grid-template-rows: 50px 9fr;
+}
+
+.forums-home .main-menu .header {
+    background-color: $bg-forums-main-menu-header;
+    padding: 0px 10px;
+}
+
+.forums-home .main-menu .header .title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fafafa;
+    line-height: 50px;
+}

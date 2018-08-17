@@ -1,0 +1,32 @@
+Features of a Society Management System:
+-	Periodical Billing & Payment Collection.
+-	Send Bills & Receipts via SMS & Email.
+-	Day-to-Day Accounting.
+-	Year End Accounting Statements.
+-	Investment Management.
+-	Statutory Compliance Document Management.
+-	Online Notices & Voting Management.
+-	Complaints & Redressal Management.
+-	Free Online Payment Gateway.
+-	10 (TEN) Years Data Storage.
+-	SMS & Email Messaging.
+-	Tenant Management with Police verification.
+-	Parking Management.
+-	Periodical Bank Reconciliation with locking.
+-	Free Mobile App.
+-	Communication Management (Facility Booking, News Flash, Notices, Requests, Suggestions).
+-	Minute/Resolution Management.
+-	Vendor & Contract Management.
+-	Material Inventory Management.
+-	Upload 75+ types of documents.
+-	Group Discussion
+
+Apna Complex:
+-   Society Billing & Accounting
+-   Collection Gateway
+-   Gatekeeper
+-   Vehicle Sentry
+-   Communication Collaboration
+-   Facility Management
+-   Society Helpdesk
+-   Society Data Management

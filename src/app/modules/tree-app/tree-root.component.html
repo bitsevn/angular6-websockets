@@ -1,0 +1,8 @@
+<div class="tree">
+    <ul>
+        <li>
+            <a (click)="onRootNodeClick($event)" [ngClass]="rootNode.get('flipped') ? 'selected' : ''">{{rootNode.get('value')}}</a>
+            <ul tree [node]="rootNode"></ul>
+        </li>
+    </ul>
+</div>
